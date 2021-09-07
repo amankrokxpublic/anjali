@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>With Love for Anjali ! 💗</title>
+  <link rel="stylesheet" href="./style_b.css">
+  <script>
+    let date = new Date()
+	  if(!((date.getDate() == 8 ) && (date.getMonth() == 8))) {
+      alert("Not today Dear ;)")
+      window.location = "./index.html"
+    }
+  </script>
+
+</head>
+<body>
+<canvas id=c></canvas>
+<audio src="./song_p.mp3" autoplay loop hidden></audio>
+<script  src="./script_b.js"></script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage('resize', "*");
+  }
+  document.onclick = () => {
+      document.querySelector("audio").play();
+  }
+  document.querySelector("audio").play();
+</script>
+
+</body>
+</html>
