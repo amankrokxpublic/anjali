@@ -67,7 +67,7 @@ jQuery(function($) {
 			confettoTL.to(confetto, { y: 60, opacity: 1, duration: downTime, ease: 'linear', onComplete: function() { var elem = this.targets()[0]; gsap.set(elem, { x: 0, y: 0, opacity: 0 }); } });
 		}
 		setTimeout(() => {
-			window.location = "./home.html"
+			window.location = "./index.html"
 		}, 2000);
 	}
 });
