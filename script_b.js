@@ -357,15 +357,15 @@ function generateBalloonPath( x, y, size ){
 }
 
 let quotes = [
-	["My favorite person in the world", "was born on this day"],
+	["Nice kachra", "that was"],
 	["Hmm, Lost another year ?", "Or gained another year of", "Loving Moments !"],
 	["There’s something in the air today", "I think it’s an old fart."],
 	["Remembering cute Apples","Send a HI from me ;)"],
-	["I’m so glad you came into the world", "and I’m even more glad you came into my world"],
+	["I’m so glad you came into the world", "and I’m even more glad you came"],
 	["One day a year isn’t enough", "to celebrate someone as special", "as you"],
 	["I love you on your birthday", "and every day", "now and forever"],
-	["I didn’t know what to get you", "for your birthday", "How about my whole heart ?"],
-	["Thanks for making me", "Happy", "everyday, all Day"]
+	["I didn’t know what to get you", "for your birthday"],
+	["Khali bhukati rehti ho", "Roz roz", "daily, everyday, all Day"]
 ]
 var ctr = -1;
 
